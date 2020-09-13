@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:paddingTop="20dp"
+    android:gravity="center_horizontal|center_vertical">
+        <SeekBar
+            android:id="@+id/sbFontSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:max="8" />
+
+        <TextView
+            android:id="@+id/tvFontSize"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+</LinearLayout>

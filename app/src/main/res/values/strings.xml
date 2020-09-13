@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Patient Quiz</string>
+    <string name="JSON_main">
+    {
+       "topics":[
+                <![CDATA[
+            {
+             "id":1234,
+            "description":"Operacja na DUPSKO"
+            },
+            {
+             "id":552,
+             "description":"Operacja na uszy"
+            },
+            {
+             "id":12,
+             "description":"Operacja na nos"
+            },
+            {
+             "id":14,
+             "description":"Operacja na pięty"
+            },
+            {
+             "id":1234,
+             "description":"Operacja na oczy"
+            },
+            {
+             "id":552,
+             "description":"Operacja na uszy"
+            },
+            {
+             "id":12,
+             "description":"Operacja na nos"
+            },
+            {
+             "id":14,
+             "description":"Operacja na pięty"
+            }
+                    ]]>
+       ]
+    }
+    </string>
+    <string name="JSON_info">
+    {
+      "topic": {
+        <![CDATA[
+        "id": 1234,
+        "title": "Operacja na oczy",
+        "content": "Operację <b>na oczy można wykonać Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>
+                    Operację na oczy można wykonać <b>Bardzo ostrożnie</b>.<br>",
+        "questions": [
+          {
+            "question": "Czy można otworzyć oczy?",
+            "answers": [
+              {
+                "answer": "tak",
+                "isCorrect": true
+              },
+              {
+                "answer": "nie",
+                "isCorrect": false
+              },
+                        {
+                "answer": "może",
+                "isCorrect": false
+              },
+              {
+                "answer": "nie wiem",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "question": "Czy można otworzyć nos?",
+            "answers": [
+              {
+                "answer": "tak",
+                "isCorrect": true
+              },
+              {
+                "answer": "nie",
+                "isCorrect": false
+              },
+                        {
+                "answer": "może",
+                "isCorrect": false
+              },
+              {
+                "answer": "nie wiem",
+                "isCorrect": false
+              }
+            ]
+          },
+                {
+            "question": "Czy można otworzyć uszy?",
+            "answers": [
+              {
+                "answer": "tak",
+                "isCorrect": false
+              },
+              {
+                "answer": "nie",
+                "isCorrect": false
+              },
+                        {
+                "answer": "może",
+                "isCorrect": false
+              },
+              {
+                "answer": "nie wiem",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+
+        ]]>
+    }
+    </string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_info2">InfoActivity2</string>
+</resources>
